@@ -1,0 +1,12 @@
+---
+
+## 5) shell-teste-conectividade  
+*Descrição sugerida:* Script de testes de conectividade.
+
+*Arquivo:* teste.sh  
+```bash
+#!/bin/bash
+
+echo "Testando conexão com Google..."
+ping -c 4 google.com
+echo "Teste finalizado."
